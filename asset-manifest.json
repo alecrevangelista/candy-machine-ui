@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/alecrevangelista/candy-machine-ui/static/css/main.6f1cd00e.chunk.css",
+    "main.js": "/alecrevangelista/candy-machine-ui/static/js/main.9eb4330a.chunk.js",
+    "main.js.map": "/alecrevangelista/candy-machine-ui/static/js/main.9eb4330a.chunk.js.map",
+    "runtime-main.js": "/alecrevangelista/candy-machine-ui/static/js/runtime-main.e522cec8.js",
+    "runtime-main.js.map": "/alecrevangelista/candy-machine-ui/static/js/runtime-main.e522cec8.js.map",
+    "static/js/2.79511c6f.chunk.js": "/alecrevangelista/candy-machine-ui/static/js/2.79511c6f.chunk.js",
+    "static/js/2.79511c6f.chunk.js.map": "/alecrevangelista/candy-machine-ui/static/js/2.79511c6f.chunk.js.map",
+    "static/js/3.6c72df8a.chunk.js": "/alecrevangelista/candy-machine-ui/static/js/3.6c72df8a.chunk.js",
+    "static/js/3.6c72df8a.chunk.js.map": "/alecrevangelista/candy-machine-ui/static/js/3.6c72df8a.chunk.js.map",
+    "index.html": "/alecrevangelista/candy-machine-ui/index.html",
+    "static/css/main.6f1cd00e.chunk.css.map": "/alecrevangelista/candy-machine-ui/static/css/main.6f1cd00e.chunk.css.map",
+    "static/js/2.79511c6f.chunk.js.LICENSE.txt": "/alecrevangelista/candy-machine-ui/static/js/2.79511c6f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e522cec8.js",
+    "static/js/2.79511c6f.chunk.js",
+    "static/css/main.6f1cd00e.chunk.css",
+    "static/js/main.9eb4330a.chunk.js"
+  ]
+}
