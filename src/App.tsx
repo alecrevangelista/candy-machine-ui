@@ -1,4 +1,5 @@
 import "./App.css";
+import logo from './img/logo.png'
 import { useMemo } from "react";
 
 import Minter from "./Minter";
@@ -63,7 +64,7 @@ const App = () => {
         </div>
         <ul>
           <li>
-            <img className="mobile-nav-logo" src="/img/logo.png" alt="" />
+            <img className="mobile-nav-logo" src={logo} alt="" />
           </li>
           <li>
             <a href="/#link1" onClick={toggleMenu}>
@@ -98,7 +99,7 @@ const App = () => {
       </div>
       <nav>
         <div className="nav-container">
-          <img className="nav-logo" src="/img/logo.png" alt="" />
+          <img className="nav-logo" src={logo} alt="" />
           <a className="hide-800" href="/#link1">
             Link 1
           </a>
@@ -121,7 +122,7 @@ const App = () => {
           <header className="card" id="link1">
             <div style={{ padding: "0 24px 0 24px 0" }}>
               <h3 className="text-secondary-color">Welcome To</h3>
-              <h1 className="pb-3">The Boiler Plate</h1>
+              <h1 className="pb-3">CALD LABs</h1>
               <p className="text-secondary-color">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
                 scelerisque ipsum non est porta mollis. Donec sapien sapien, dictum
@@ -153,19 +154,7 @@ const App = () => {
           </header>
 
           <div id="link2" className="container">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac velit
-            aliquet, semper sapien sed, ornare augue. Phasellus sed velit interdum,
-            sagittis metus quis, facilisis lectus. Cras sollicitudin purus at magna
-            eleifend maximus. Nulla nec nulla in nunc maximus viverra in at mauris.
-            Fusce sodales dolor nisi, et vehicula orci porta id. In placerat nunc
-            sed erat lacinia tincidunt. Interdum et malesuada fames ac ante ipsum
-            primis in faucibus. Vestibulum commodo eget metus vitae tempus. Aliquam
-            pharetra mi at efficitur accumsan. Curabitur venenatis libero a ex
-            porttitor, at auctor turpis hendrerit. Nam commodo, risus non consequat
-            pretium, erat ante auctor purus, a cursus dolor erat at velit. Maecenas
-            dignissim, dolor sed laoreet aliquam, tortor lacus faucibus urna, eget
-            mattis massa sem ac dui. Nam semper hendrerit interdum. Etiam at dictum
-            nisi.
+            Deez nuts
           </div>
 
           <div id="link3" className="container card">

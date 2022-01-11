@@ -56,7 +56,7 @@ export const welcomeSettings: WelcomeSettings = {
 
   // Countdown Timer
   countdownEnable: false,
-  countdownTo: date("2 Jan 2022 00:00:00 GMT"),
+  countdownTo: date("25 Jan 2022 00:00:00 EST"),
   //Example date below
   // date('29 2021 00:00:00 GMT')
 
@@ -99,8 +99,8 @@ export const whitelistSettings: WhitelistSettings = {
   //If you want to use the whitelist feature enable it.
   enabled: true,
 
-  startDate: date("1 Jan 2022 00:00:00 GMT"),
-  endDate: date("8 Jan 2022 00:00:00 GMT"),
+  startDate: date("11 Jan 2022 00:00:00 EST"),
+  endDate: date("18 Jan 2022 00:00:00 EST"),
   countdown: true,
   //Example date below
   // date('29 2021 00:00:00 GMT')
@@ -138,7 +138,7 @@ export class MintWhitelistCustomHTML extends React.Component {
 export const publicSaleSettings: PublicSaleSettings = {
   //start date and end date must match your Candy Machine Config for public launch!
 
-  startDate: date("7 Jan 2022 00:00:00 GMT"),
+  startDate: date("19 Jan 2022 00:00:00 EST"),
   endDate: undefined,
   countdown: false,
   //Example date below
