@@ -1,5 +1,10 @@
 import "./App.css";
 import logo from './img/logo.png'
+import twitter from './icons/twitter.svg'
+import discord from './icons/discord.svg'
+import menu from './icons/menu.svg'
+import gif from './gif/bayc.gif'
+
 import { useMemo } from "react";
 
 import Minter from "./Minter";
@@ -88,14 +93,14 @@ const App = () => {
           </li>
           <li>
             <div className="social-icons">
-              <img className="nav-social" src="/icons/twitter.svg" alt="" />
-              <img className="nav-social" src="/icons/discord.svg" alt="" />
+              <img className="nav-social" src={twitter} alt="" />
+              <img className="nav-social" src={discord} alt="" />
             </div>
           </li>
         </ul>
       </div>
       <div className="mobile-menu-button" onClick={toggleMenu}>
-        <img src="/icons/menu.svg" alt="" />
+        <img src={menu} alt="" />
       </div>
       <nav>
         <div className="nav-container">
@@ -113,8 +118,8 @@ const App = () => {
             Link 4
           </a>
           <div className="social-icons hide-800">
-            <img className="nav-social" src="/icons/twitter.svg" alt="" />
-            <img className="nav-social" src="/icons/discord.svg" alt="" />
+            <img className="nav-social" src={twitter} alt="" />
+            <img className="nav-social" src={discord}alt="" />
           </div>
         </div>
       </nav>
@@ -123,13 +128,15 @@ const App = () => {
             <div style={{ padding: "0 24px 0 24px 0" }}>
               <h3 className="text-secondary-color">Welcome To</h3>
               <h1 className="pb-3">CALD LABs</h1>
-              <p className="text-secondary-color">
+              {/* <p className="text-secondary-color">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
                 scelerisque ipsum non est porta mollis. Donec sapien sapien, dictum
                 eget enim sed, hendrerit semper orci. Donec ante magna, consequat at
                 eros ac, eleifend dictum sem. Nam vitae condimentum lorem.
                 Vestibulum molestie dui turpis, tincidunt porta sem congue nec.
-              </p>
+              </p> */}
+
+              <img src={gif} alt="" />     
             </div>
             <div>
               <ThemeProvider theme={theme}>
