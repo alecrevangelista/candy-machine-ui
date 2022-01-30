@@ -127,8 +127,13 @@ const App = () => {
           <header className="card" id="link1">
             <div style={{ padding: "0 24px 0 24px 0" }}>
               <h3 className="text-secondary-color">Welcome To</h3>
+<<<<<<< HEAD
               <h2></h2>
               <h2></h2>
+=======
+              <div>
+                </div>
+>>>>>>> 6ec38d6a224e8c954c18230b3b02c9c4912b501c
               <h1 className="pb-3">CALD LABs</h1>
               {/* <p className="text-secondary-color">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
