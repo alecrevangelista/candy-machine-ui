@@ -199,6 +199,7 @@ header {
   gap: 40px;
   padding: 35px;
   flex-direction: column;
+  height: 100%;
 }
 
 .mintHeader {
@@ -238,7 +239,7 @@ header {
   box-shadow: 0 0 20px -13px white;
 }
 
-.faq {
+/* .faq {
   max-width: 900px;
   margin: auto;
   align-items: center;
@@ -251,7 +252,7 @@ header {
 
 .faq p {
   padding: 20px;
-}
+} */
 
 .rainbow-gallery {
   display: grid;
@@ -278,6 +279,28 @@ header {
   margin-left: auto;
   margin-right: auto;
   max-width: 900px;
+}
+
+.rm {
+
+  background-color: blue;
+  margin-left: auto; 
+  margin-right: 0;
+  width: 400px;
+  height: 300px;
+
+}
+
+.heading-medium {
+  margin: 5px;
+  padding: 10px;
+  border-radius: var(--card-border-radius);
+  background: var(--card-background-color);
+  float: left;
+  width: 350px;
+  position: sticky;
+  top: 120px;
+  text-align: center;
 }
 
 .content-wrapper {
@@ -356,3 +379,31 @@ header {
 }
 
 
+/* FAQ */
+
+summary {
+  font-size: 1.25rem;
+  font-weight: 600;
+  background-color: #fff;
+  color: #333;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  outline: none;
+  border-radius: 0.25rem;
+  text-align: left;
+  cursor: pointer;
+  position: relative;
+}
+details > summary::after {
+  position: absolute;
+  content: "+";
+  right: 20px;
+}
+details[open] > summary::after {
+  position: absolute;
+  content: "-";
+  right: 20px;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}

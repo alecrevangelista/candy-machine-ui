@@ -16,9 +16,14 @@ import { clusterApiUrl } from "@solana/web3.js";
 import { WalletAdapterNetwork } from "@solana/wallet-adapter-base";
 import {
   getPhantomWallet,
+  getSlopeWallet,
   getSolflareWallet,
+  getSolflareWebWallet,
   getSolletWallet,
-  getMathWallet,
+  getSolletExtensionWallet,
+  getSolongWallet,
+  getLedgerWallet,
+  getSafePalWallet,
 } from "@solana/wallet-adapter-wallets";
 
 import {
@@ -54,7 +59,15 @@ const App = () => {
   const endpoint = useMemo(() => clusterApiUrl(network), []);
 
   const wallets = useMemo(
-    () => [getPhantomWallet(), getSolflareWallet(), getSolletWallet(), getMathWallet() ],
+    () => [getPhantomWallet(),
+      getSlopeWallet(),
+      getSolflareWallet(),
+      getSolflareWebWallet(),
+      getSolletWallet({ network }),
+      getSolletExtensionWallet({ network }),
+      getSolongWallet(),
+      getLedgerWallet(),
+      getSafePalWallet(), ],
     []
   );
 
@@ -175,41 +188,43 @@ const App = () => {
             <h1 className="pb-3">Project: ............</h1>
           </div>
 
-          <div id="link4" className="container faq">
-            <h1 style={{ padding: "0 0 24px 0" }}>FAQ</h1>
-            <div>
-              <h4>Lorem ipsum?</h4>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                id metus id mauris tincidunt posuere. Vivamus neque odio, imperdiet
-                vitae.
-              </p>
+          <div className="roadmap"> 
+            <h3 data-aos="fade-right" className="heading-medium">Road Map</h3>
 
-              <hr />
+            <div data-aos="fade-left" className="container card rm">
+              <h1>............</h1>
             </div>
 
-            <div>
-              <h4>Lorem ipsum?</h4>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                id metus id mauris tincidunt posuere. Vivamus neque odio, imperdiet
-                vitae.
-              </p>
-
-              <hr />
+            <div data-aos="fade-left" className="container card rm">
+              <h1>............</h1>
             </div>
 
-            <div>
-              <h4>Lorem ipsum?</h4>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                id metus id mauris tincidunt posuere. Vivamus neque odio, imperdiet
-                vitae.
-              </p>
+            <div data-aos="fade-left" className="container card rm">
+              <h1>............</h1>
+            </div>        
+          </div> 
 
-              <hr />
+          <details open>
+            <summary>FAQ 1</summary>
+            <div className="faq__content">
+              <p>Answer 1</p>
             </div>
-          </div>
+          </details>
+          <details>
+            <summary>FAQ 2</summary>
+            <div className="faq__content">
+              <p>Answer 2</p>
+            </div>
+          </details>
+          <details>
+            <summary>FAQ 3</summary>
+            <div className="faq__content">
+              <p>Answer 3</p>
+            </div>
+          </details>
+
+        
+
       </div>
     </div>
   );
