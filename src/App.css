@@ -29,6 +29,12 @@ nav {
   width: 100%;
   height: var(--nav-height);
   transition: height 0.2s ease-in-out;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: white;
+  /* padding: 1rem; */
+  background: rgba(255,255,255,.6);
 }
 
 .nav-container {
@@ -257,6 +263,7 @@ header {
 }
 
 .card {
+  margin: 60px;
   align-items: center;
   border-radius: var(--card-border-radius);
   padding: 40px;

@@ -4,6 +4,8 @@ import twitter from './icons/twitter.svg'
 import discord from './icons/discord.svg'
 import menu from './icons/menu.svg'
 import gif from './gif/bayc.gif'
+import AOS from 'aos'
+import 'aos/dist/aos.css';
 
 import { useMemo } from "react";
 
@@ -27,6 +29,7 @@ import {
 import { WalletDialogProvider } from "@solana/wallet-adapter-material-ui";
 import { ThemeProvider, createTheme } from "@material-ui/core";
 
+AOS.init();
 
 const theme = createTheme({
   palette: {
@@ -105,7 +108,7 @@ const App = () => {
       <nav>
         <div className="nav-container">
           <img className="nav-logo" src={logo} alt="" />
-          <a className="hide-800" href="/#link1">
+          {/* <a className="hide-800" href="/#link1">
             Link 1
           </a>
           <a className="hide-800" href="/#link2">
@@ -116,7 +119,7 @@ const App = () => {
           </a>
           <a className="hide-800" href="/#link4">
             Link 4
-          </a>
+          </a> */}
           <div className="social-icons hide-800">
             <img className="nav-social" src={twitter} alt="" />
             <img className="nav-social" src={discord}alt="" />
@@ -127,13 +130,10 @@ const App = () => {
           <header className="card" id="link1">
             <div style={{ padding: "0 24px 0 24px 0" }}>
               <h3 className="text-secondary-color">Welcome To</h3>
-<<<<<<< HEAD
+              {/* <h2></h2>
               <h2></h2>
-              <h2></h2>
-=======
               <div>
-                </div>
->>>>>>> 6ec38d6a224e8c954c18230b3b02c9c4912b501c
+                </div> */}
               <h1 className="pb-3">CALD LABs</h1>
               {/* <p className="text-secondary-color">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
@@ -167,12 +167,12 @@ const App = () => {
             </div>
           </header>
 
-          <div id="link2" className="container">
-            Deez nuts
-          </div>
+          {/* <div id="link2" className="container">
+            Project Summary: ............
+          </div> */}
 
-          <div id="link3" className="container card">
-            <h1 className="pb-3">Lorem ipsum</h1>
+          <div data-aos="fade-right" id="link3" className="container card">
+            <h1 className="pb-3">Project Summary: ............</h1>
           </div>
 
           <div id="link4" className="container faq">
