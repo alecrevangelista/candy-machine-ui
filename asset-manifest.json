@@ -1,26 +1,29 @@
 {
   "files": {
-    "main.css": "/candy-machine-ui/static/css/main.3d22db2a.chunk.css",
-    "main.js": "/candy-machine-ui/static/js/main.a53dec8f.chunk.js",
-    "main.js.map": "/candy-machine-ui/static/js/main.a53dec8f.chunk.js.map",
-    "runtime-main.js": "/candy-machine-ui/static/js/runtime-main.d75b2223.js",
-    "runtime-main.js.map": "/candy-machine-ui/static/js/runtime-main.d75b2223.js.map",
-    "static/js/2.6153014a.chunk.js": "/candy-machine-ui/static/js/2.6153014a.chunk.js",
-    "static/js/2.6153014a.chunk.js.map": "/candy-machine-ui/static/js/2.6153014a.chunk.js.map",
-    "static/js/3.6c72df8a.chunk.js": "/candy-machine-ui/static/js/3.6c72df8a.chunk.js",
-    "static/js/3.6c72df8a.chunk.js.map": "/candy-machine-ui/static/js/3.6c72df8a.chunk.js.map",
+    "main.css": "/candy-machine-ui/static/css/main.14c776a1.chunk.css",
+    "main.js": "/candy-machine-ui/static/js/main.04555f9b.chunk.js",
+    "main.js.map": "/candy-machine-ui/static/js/main.04555f9b.chunk.js.map",
+    "runtime-main.js": "/candy-machine-ui/static/js/runtime-main.f92d55f3.js",
+    "runtime-main.js.map": "/candy-machine-ui/static/js/runtime-main.f92d55f3.js.map",
+    "static/css/2.ae9e5f60.chunk.css": "/candy-machine-ui/static/css/2.ae9e5f60.chunk.css",
+    "static/js/2.bef6a7f4.chunk.js": "/candy-machine-ui/static/js/2.bef6a7f4.chunk.js",
+    "static/js/2.bef6a7f4.chunk.js.map": "/candy-machine-ui/static/js/2.bef6a7f4.chunk.js.map",
+    "static/js/3.30dccc96.chunk.js": "/candy-machine-ui/static/js/3.30dccc96.chunk.js",
+    "static/js/3.30dccc96.chunk.js.map": "/candy-machine-ui/static/js/3.30dccc96.chunk.js.map",
     "index.html": "/candy-machine-ui/index.html",
-    "static/css/main.3d22db2a.chunk.css.map": "/candy-machine-ui/static/css/main.3d22db2a.chunk.css.map",
-    "static/js/2.6153014a.chunk.js.LICENSE.txt": "/candy-machine-ui/static/js/2.6153014a.chunk.js.LICENSE.txt",
+    "static/css/2.ae9e5f60.chunk.css.map": "/candy-machine-ui/static/css/2.ae9e5f60.chunk.css.map",
+    "static/css/main.14c776a1.chunk.css.map": "/candy-machine-ui/static/css/main.14c776a1.chunk.css.map",
+    "static/js/2.bef6a7f4.chunk.js.LICENSE.txt": "/candy-machine-ui/static/js/2.bef6a7f4.chunk.js.LICENSE.txt",
     "static/media/bayc.9119d097.gif": "/candy-machine-ui/static/media/bayc.9119d097.gif",
     "static/media/discord.47430718.svg": "/candy-machine-ui/static/media/discord.47430718.svg",
     "static/media/menu.a6238d35.svg": "/candy-machine-ui/static/media/menu.a6238d35.svg",
     "static/media/twitter.efe040cb.svg": "/candy-machine-ui/static/media/twitter.efe040cb.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.d75b2223.js",
-    "static/js/2.6153014a.chunk.js",
-    "static/css/main.3d22db2a.chunk.css",
-    "static/js/main.a53dec8f.chunk.js"
+    "static/js/runtime-main.f92d55f3.js",
+    "static/css/2.ae9e5f60.chunk.css",
+    "static/js/2.bef6a7f4.chunk.js",
+    "static/css/main.14c776a1.chunk.css",
+    "static/js/main.04555f9b.chunk.js"
   ]
 }
