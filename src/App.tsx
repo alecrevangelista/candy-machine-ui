@@ -172,7 +172,7 @@ const App = () => {
           </div> */}
 
           <div data-aos="fade-right" id="link3" className="container card">
-            <h1 className="pb-3">Project Summary: ............</h1>
+            <h1 className="pb-3">Project: ............</h1>
           </div>
 
           <div id="link4" className="container faq">
